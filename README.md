@@ -161,7 +161,3 @@ HTML only:
 ```powershell
 python -m shamela2epub.cli export --library D:\shamela4 --book 4445 --out output --html-only
 ```
-
-## Repository notes
-
-Do not commit Shamela databases, exported books, or local output folders. They are ignored by `.gitignore`.
