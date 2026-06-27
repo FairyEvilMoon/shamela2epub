@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# Java helper
+java-helper/target/
+*.class
+
+# Generated exports
+output/
+exports/
+*.epub
+*.html
+*.xhtml
+*.ncx
+*.opf
+pages.txt
+test.txt
+
+# Local Shamela/user data
+library/
+covers/
+temp/
+tmp/
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log

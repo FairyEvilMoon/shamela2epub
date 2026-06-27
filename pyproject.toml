@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shamela2epub"
+version = "0.2.0"
+description = "Export Shamela 4 books to EPUB and HTML"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Shamela2EPUB contributors"}]
+dependencies = [
+  "ebooklib>=0.18",
+  "beautifulsoup4>=4.12"
+]
+
+[project.scripts]
+shamela2epub = "shamela2epub.cli:main"
